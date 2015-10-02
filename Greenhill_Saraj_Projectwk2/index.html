@@ -1,0 +1,70 @@
+<!DOCTYPE html><head>
+<title>Project 2 - Landing Page</title>
+<!--Sarah R. Greenhill-->
+
+<link href="CSS/style.css" rel="stylesheet" type="text/css"><!--Linked CSS Page-->
+<script type="text/javascript" src="JS/main.js"></script><!--Linked JS Page-->
+</head>
+
+<body>
+<div id="wrap"><!--Start Wrapper-->
+    <h1>A Life Filled With Food</h1><!--Header-->
+    <div id="nav"><!--Start Nav-->
+    <nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li>
+				<a href="https://www.reddit.com/r/food">Reddit Food</a>
+		<ul class="fallback">
+        	<li><a href="https://www.reddit.com/r/food/search?q=flair%3ABBQ&restrict_sr=on&sort=relevance&t=all#BBQ">BBQ</a></li>
+			<li><a href="https://www.reddit.com/r/food/search?q=flair%3AComfort-Food&restrict_sr=on&sort=relevance&t=all#Comfort-Food">Comfort-Food</a></li>
+			<li><a href="https://www.reddit.com/r/food/search?q=flair%3AMeat&restrict_sr=on&sort=relevance&t=all#Meat">Meat</a></li>
+		</ul>
+			</li>
+			<li>
+				<a href="http://www.foodnetwork.com/">Food Network</a>
+		<ul class="fallback">
+       		 <li><a href="http://www.foodnetwork.com/recipes.html">Recipes</a></li>
+	   		 <li><a href="http://www.foodnetwork.com/restaurants.html">Restaraunts</a></li>
+	   		 <li><a href="http://www.foodnetwork.com/videos.html">Videos</a></li>
+	   		 <li><a href="http://www.foodnetwork.com/shows.html">Food Network Shows</a></li>
+	   	</ul>
+	   		</li>
+	   		<li><a href="https://www.pinterest.com/search/pins/?q=food">Pinterest Food</a></li>
+	   		<li><a href="http://m.allrecipes.com/?mxt=t06rda">Allrecipes</a></li>
+	   		<li><a href="http://www.food.com/">Food.com: Get Ideas</a></li>
+	   	</ul>
+	</nav><!--close nav-->
+	</div><!--close nav div-->
+	
+	<div id="login">
+		<form id="loginForm">
+			<label>Username: </label>
+			<input name="signinButton" type"text" id="user" class="masterTooltip" title="Please enter your username." required /><br>
+			<label>Password: </label>
+			<input name="signinButton" type"password" id="pass" class="masterTooltip" title="Please enter your password." required /><br>
+	
+	<div id="overlay">
+		<div id="modal">
+			<span class="close">x</span>
+			<h3 class="header">Sign Up</h3>
+				<div>
+				<form>
+					<label>First Name: </label>
+						<input type="text" id="fName"/><br>
+					<label>Last Name: </label>
+						<input type="text" id="lName"/><br>	
+					<label>Email Address: </label>
+						<input type="email" id="email"/><br>
+					<button id="signUpBtn">Sign Up!</button>
+				</form>
+			</div><!--Close Form Div-->
+		</div><!--Close Modal-->
+	</div><!--Close Overlay-->
+	
+	<a href="#" class="modalClick" title="Join Today!">Sign Up: Clicky!</a> <!--Modal Text-->
+	
+</div> <!--Closes Wrap-->
+	<script type="text/javascript" src="jQuery/jquery-1.11.3.min.js"></script><!--Loads jQuery-->
+</body>
+</html>
